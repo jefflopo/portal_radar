@@ -187,3 +187,28 @@ header #logotipo {
     font-size: 18px;
     display: block;
 }
+
+#call-to-action {
+    text-align: center;
+    margin-top: 105px;
+}
+
+#call-to-action h2 {
+    color: #1BA39C;
+    font-family: 'OpenSans-Light';
+    font-size: 48px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#call-to-action hr {
+    border: #03C9A9  solid 8px;
+    width: 200px;
+    margin: 0 auto;
+}
+
+#call-to-action p {
+    color: #A7A7A7;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
