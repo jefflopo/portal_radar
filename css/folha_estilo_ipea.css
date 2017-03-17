@@ -121,3 +121,48 @@ header #logotipo {
     position: relative;
     margin-left: 1400px;
 }
+
+#publicacoes {
+    position: relative;
+    top: -110px;
+}
+
+#publicacoes h2 {
+    color: #1BA39C;
+    font-family: 'OpenSans-Light';
+    font-size: 48px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#publicacoes hr {
+    border: #03C9A9  solid 8px;
+    width: 200px;
+    margin: 0 auto;
+}
+
+#publicacoes .thumbnails {
+    margin-top: 20px;
+}
+
+#publicacoes .thumbnails h2 {
+    color: #1BA39C;
+    font-size: 16px;
+    font-family: 'OpenSans';
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+#publicacoes .thumbnails h3 {
+    color: #000;
+    font-size: 18px;
+    font-family: 'OpenSans';
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+#publicacoes .thumbnails time {
+    color: #A7A7A7;
+    font-size: 18px;
+    font-family: 'OpenSans';
+}
