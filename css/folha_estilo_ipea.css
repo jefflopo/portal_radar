@@ -115,3 +115,9 @@ header #logotipo {
     top: -160px;
     
 }
+
+#banner img {
+    top: 100px;
+    position: relative;
+    margin-left: 1400px;
+}
