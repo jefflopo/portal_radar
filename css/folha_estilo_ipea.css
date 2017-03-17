@@ -1,0 +1,109 @@
+@font-face {
+	font-family: 'OpenSans';
+	src: url("../fonts/Open_Sans/OpenSans-Regular.ttf");
+	font-size: 1em;
+}
+@font-face {
+	font-family: 'OpenSans-Light';
+	src: url("../fonts/Open_Sans/OpenSans-Light.ttf");
+	font-size: 1em;
+}
+header {
+    width: 100%;
+    height: 150px;
+    background-color: rgba(94, 41, 154, .8);
+    z-index: 2;
+    position: relative;
+}
+header .container {
+	position: absolute;
+}
+header .header-gray {
+	background-color: #CDCDCD;
+	height: 40px;
+}
+header .header-gray li {
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin: 4px;
+}
+header .header-gray .brasil {
+	background-position: 0px 0px;
+}
+header .header-gray .servicos {
+	background-position: -48px 0px;
+}
+header .header-gray .participe {
+	background-position: -95px 0px;
+}
+header .header-gray .informacao {
+	background-position: -140px 0px;
+}
+header .header-gray .legislacao {
+    background-position: -189px 0px;
+}
+header .header-gray .canais {
+    background-position: -239px 0px;
+}
+header .header-gray .vlibras {
+    background-position: -288px 0px;
+}
+header .header-gray a {
+    width: 64px;
+    height: 64px;
+    display: inline-block;
+    margin-left: 118px;
+    margin-right: 0px;
+    margin-top: -14px;
+}
+header #logotipo {
+    position: absolute;
+    top: 35px;
+    left: 39px;
+}
+#menu {
+    margin: 12px 0;
+}
+#menu ul {
+    margin-top: 20px;
+    margin-bottom: 63px;
+    margin-right: -190px;
+}
+#menu li {
+    display: inline-block;
+    font-family: "OpenSans";
+}
+#menu li.search {
+    width: 182px;
+}
+#menu li.search input {
+    background-color: #fff;
+    color: #000;
+    border: none;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 8px;
+}
+#menu li.search ::-webkit-input-placeholder {
+	color: #C0C0C0;	
+}
+#menu li.search button {
+    background: none;
+    border: none;
+    position: absolute;
+    right: 3px;
+    top: 7px;
+}
+#menu li.search button i {
+    font-size: 14px;
+    color: #C0C0C0;
+}
+#menu li a {
+    color: #FFF;
+    font-size: 16px;
+    padding: 10px 25px;
+    font-weight: bold;
+}
+#menu li.search .input-group {
+    top: 8px;
+}
