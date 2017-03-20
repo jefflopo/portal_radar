@@ -212,3 +212,116 @@ header #logotipo {
     margin-top: 60px;
     margin-bottom: 40px;
 }
+
+footer {
+    margin-top: 110px;
+}
+
+footer .row {
+    width: 100%;
+}
+
+footer .row p {
+    line-height: 55px;
+    margin-bottom: 0;
+}
+
+footer .row .row-verde_silver_tree {
+    height: 200px;
+    background-color: #68C3A3;
+}
+
+footer .row row-caribbean_green {
+    height: 60px;
+    background-color: #03C9A9;
+    border-top: #242D37 1px solid;
+}
+
+footer .center-block {
+    font-family: 'OpenSans';
+    font-size: 14px;
+    color:#666;
+}
+
+footer .col-mais-acessados, .col-links, .col-contatos {
+    margin-top: 40px;
+}
+
+footer .row h4 {
+    font-family: 'OpenSans';
+    font-size: 16px;
+    color:#FFF;
+    padding-bottom: 17px;
+    border-bottom: #242D37 1px solid;
+}
+
+footer .row h5 {
+    color: #666;
+    font-family: Arial;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+footer .col-links a {
+    color: #FFF;
+    font-family: Arial;
+    font-size: 14px;
+}
+
+footer .col-links .fa {
+    margin: 0 6px;
+}
+
+footer .col-contatos address {
+    color: #666;
+    font-family: Arial;
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+
+footer .col-contatos address span {
+    display: inline-block;
+}
+
+footer .col-contatos address i {
+    position: relative;
+    top: -14px;
+}
+
+footer .col-contatos i {
+    color: #9B9B9B;
+    font-size: 20px;
+    margin: 0 6px;
+}
+
+footer .col-contatos a {
+    color: #666;
+}
+
+footer .col-contatos p {
+    line-height: 20px;
+}
+
+footer .list-socials {
+    margin-top: 4px;
+}
+
+footer .list-socials li {
+    display: inline-block;
+    margin-right: 8px;
+}
+
+footer .list-socials a {
+    display: block;
+    border: #9B9B9B 1px solid;
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    border-radius: 14px;
+    text-align: center;
+}
+
+footer .list-socials i {
+    font-size: 16px;
+    margin: 7px auto;
+}
