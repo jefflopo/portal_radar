@@ -120,6 +120,7 @@ header #logotipo {
     top: 100px;
     position: relative;
     margin-left: 1400px;
+    z-index: 2;
 }
 
 #publicacoes {
