@@ -222,8 +222,12 @@ footer .row {
 }
 
 footer .row p {
-    line-height: 55px;
-    margin-bottom: 0;
+    line-height: 30px;
+    margin-bottom: -22px;
+    margin-left: 211px;
+    margin-top: 15px;
+    margin-right: 5px;
+    color: #000;
 }
 
 footer .row-verde_silver_tree {
@@ -263,7 +267,7 @@ footer .row h5 {
 }
 
 footer .col-links a {
-    color: #FFF;
+    color: #000;
     font-family: Arial;
     font-size: 14px;
 }
@@ -273,7 +277,7 @@ footer .col-links .fa {
 }
 
 footer .col-contatos address {
-    color: #666;
+    color: #000;
     font-family: Arial;
     font-size: 14px;
     margin-bottom: 6px;
@@ -281,29 +285,36 @@ footer .col-contatos address {
 
 footer .col-contatos address span {
     display: inline-block;
+    margin-top: -20px;
+    margin-left: 27px;
 }
 
 footer .col-contatos address i {
     position: relative;
-    top: -14px;
+    top: 11px;
 }
 
 footer .col-contatos i {
-    color: #9B9B9B;
+    color: #000;
     font-size: 20px;
     margin: 0 6px;
 }
 
 footer .col-contatos a {
-    color: #666;
+    color: #000;
+    margin-top: 63px;
+    margin-left: 15px;
+    margin-right: -14px;
 }
 
 footer .col-contatos p {
-    line-height: 20px;
+    margin-top: -6px;
+    margin-left: -17px;
 }
 
-footer .list-socials {
-    margin-top: 4px;
+footer .col-contatos .list-socials {
+    margin-top: -62px;
+    margin-left: 20px;
 }
 
 footer .list-socials li {
@@ -313,7 +324,7 @@ footer .list-socials li {
 
 footer .list-socials a {
     display: block;
-    border: #9B9B9B 1px solid;
+    border: #000 1px solid;
     width: 28px;
     height: 28px;
     line-height: 28px;
