@@ -59,6 +59,7 @@ header #logotipo {
     position: absolute;
     top: 35px;
     left: 39px;
+    z-index: 2;
 }
 #menu {
     margin: 12px 0;
