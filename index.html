@@ -38,19 +38,34 @@ and open the template in the editor.
                 <div class="row">
 
                         <nav id="menu" class="pull-right">
-                            <ul>
-                                <li><a href="#">Início</a></li>
-                                <li><a href="#">Temas</a></li>
-                                <li><a href="#">Radar PDF</a></li>
-                                <li class="search">
-                                    <div class="input-group">
-                                        <input type="search" placeholder="Pesquisar" id="input-search">
-                                        <span class="input-group-btn">
-                                            <button type="button"><i class="fa fa-search"></i></button>
-                                        </span>
-                                    </div><!-- /input-group -->
-                                </li>
-                            </ul>
+                            <div class="container-fluid">
+                                
+                                <ul class="nav navbar-nav">
+                                    <li><a href="#">Início</a></li>
+                                    <li class="dropdown">
+                                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Temas
+                                            <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Agricultura</a></li>
+                                                <li><a href="#">Ciência, Tecnologia e Inovação</a></li>
+                                                <li><a href="#">Comércio Exterior</a></li>
+                                                <li><a href="#">Educação</a></li>
+                                                <li><a href="#">Indústria</a></li>
+                                            </ul>
+                                    </li>
+                                    <li><a href="#">Radar PDF</a></li>
+                                    <li class="search">
+                                        <div class="input-group">
+                                            <input type="search" placeholder="Pesquisar" id="input-search">
+                                            <span class="input-group-btn">
+                                                <button type="button"><i class="fa fa-search"></i></button>
+                                            </span>
+                                        </div><!-- /input-group -->
+                                    </li>
+                                </ul>
+                                
+                            </div>
+                            
                         </nav>
 
                 </div>
