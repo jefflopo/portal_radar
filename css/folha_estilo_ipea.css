@@ -75,6 +75,11 @@ header #logotipo {
 }
 #menu li.search {
     width: 182px;
+    transition-timing-function: cubic-bezier(1,-.91,.91,1);
+    transition-duration: 1s;
+}
+#menu li.search.ativo {
+    width: 300px;
 }
 #menu li.search input {
     background-color: #fff;
@@ -83,7 +88,13 @@ header #logotipo {
     height: 30px;
     line-height: 30px;
     padding-left: 8px;
+    z-index: 3;
 }
+
+#menu li.search.ativo input {
+    width: 200px;
+}
+
 #menu li.search ::-webkit-input-placeholder {
 	color: #C0C0C0;	
 }
@@ -120,7 +131,7 @@ header #logotipo {
 #banner img {
     top: 100px;
     position: relative;
-    margin-left: 1400px;
+    margin-left: 1240px;
     z-index: 2;
 }
 
