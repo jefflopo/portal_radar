@@ -154,6 +154,33 @@ header #logotipo {
     margin: 0 auto;
 }
 
+#edicoes {
+    position: relative;
+    top: -110px;
+}
+
+#edicoes h2 {
+    color: #1BA39C;
+    font-family: 'OpenSans-Light';
+    font-size: 48px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#edicoes hr {
+    border: #03C9A9  solid 8px;
+    width: 200px;
+    margin: 0 auto;
+}
+
+#edicoes .thumbnails h2 {
+    color: #1BA39C;
+    font-family: 'OpenSans-Light';
+    font-size: 24px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
 #publicacoes .thumbnails {
     margin-top: 20px;
 }
