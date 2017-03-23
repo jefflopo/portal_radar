@@ -178,6 +178,18 @@ header #logotipo {
     color: #A7A7A7;
     font-size: 18px;
     font-family: 'OpenSans';
+    margin: 100px;
+    margin-right: 35px;
+    padding: 3px;
+}
+
+#publicacoes .thumbnails .col-md-3 {
+    padding: 10px;
+    margin-top: 10px;
+}
+
+#publicacoes .thumbnails .col-md-3 img {
+    padding: 10px;
 }
 
 #sobre_radar {
