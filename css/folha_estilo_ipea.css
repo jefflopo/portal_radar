@@ -135,6 +135,11 @@ header #logotipo {
     z-index: 2;
 }
 
+header .pull-right {
+    margin-left: 950px;
+    margin-top: 20px;
+}
+
 #publicacoes {
     position: relative;
     top: -110px;
