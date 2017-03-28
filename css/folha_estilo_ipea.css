@@ -159,43 +159,8 @@ header .pull-right {
     margin: 0 auto;
 }
 
-#edicoes {
-    position: relative;
-    top: -110px;
-}
-
-#edicoes h2 {
-    color: #1BA39C;
-    font-family: 'OpenSans-Light';
-    font-size: 48px;
-    text-transform: uppercase;
-    text-align: center;
-}
-
-#edicoes hr {
-    border: #03C9A9  solid 8px;
-    width: 200px;
-    margin: 0 auto;
-}
-
-#edicoes .thumbnails h2 {
-    color: #1BA39C;
-    font-family: 'OpenSans-Light';
-    font-size: 24px;
-    text-transform: uppercase;
-    text-align: center;
-}
-
 #publicacoes .thumbnails {
-    margin-top: 20px;
-}
-
-#publicacoes .thumbnails h2 {
-    color: #1BA39C;
-    font-size: 16px;
-    font-family: 'OpenSans';
-    font-weight: bold;
-    margin-bottom: 0;
+	margin-top: 20px;
 }
 
 #publicacoes .thumbnails h3 {
@@ -210,17 +175,13 @@ header .pull-right {
     color: #A7A7A7;
     font-size: 18px;
     font-family: 'OpenSans';
-    margin: 100px;
-    margin-right: 35px;
-    padding: 3px;
 }
 
-#publicacoes .thumbnails .col-md-3 {
+#publicacoes .thumbnails .item-inner {
     padding: 10px;
-    margin-top: 10px;
 }
 
-#publicacoes .thumbnails .col-md-3 img {
+#publicacoes .thumbnails .item-inner img {
     padding: 10px;
 }
 
@@ -394,4 +355,8 @@ footer .list-socials a {
 footer .list-socials i {
     font-size: 16px;
     margin: 7px auto;
+}
+
+#btn-publicacoes-prev, #btn-publicacoes-next {
+	display: none;
 }
