@@ -69,7 +69,7 @@ header #logotipo {
     background-color: #03C9A9;
 }
 #menu li {
-    display: inline-block;
+    display: block;
     font-family: "OpenSans";
 }
 #menu li.search {
