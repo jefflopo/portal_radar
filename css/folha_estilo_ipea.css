@@ -114,6 +114,9 @@ header #logotipo {
     padding: 10px 25px;
     font-weight: bold;
 }
+#menu li a:hover {
+    color: blue;
+}
 #menu li.search .input-group {
     top: 8px;
 }
