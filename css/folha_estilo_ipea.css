@@ -64,10 +64,9 @@ header #logotipo {
 #menu {
     margin: 12px 0;
 }
-#menu ul {
-    margin-top: 20px;
-    margin-bottom: 63px;
-    margin-right: -190px;
+.dropdown-menu {
+    color: #000;
+    background-color: #03C9A9;
 }
 #menu li {
     display: inline-block;
@@ -118,7 +117,6 @@ header #logotipo {
 #menu li.search .input-group {
     top: 8px;
 }
-
 #banner {
     width: 100%;
     height: 142px;
@@ -136,8 +134,8 @@ header #logotipo {
 }
 
 header .pull-right {
-    margin-left: 950px;
-    margin-top: 20px;
+    margin-top: 3px;
+    margin-right: 688px;
 }
 
 #publicacoes {
