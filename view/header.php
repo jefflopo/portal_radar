@@ -9,17 +9,17 @@ and open the template in the editor.
         <title>Boletim Radar</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
-        <link rel="stylesheet" href="lib/owl.carousel/owl.carousel.css">
-	<link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
-	<link rel="stylesheet" href="css/folha_estilo_ipea.css">
+        <link rel="stylesheet" href="../lib/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../lib/owl.carousel/owl.carousel.css">
+	<link rel="stylesheet" href="../fonts/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="../css/folha_estilo_ipea.css">
     </head>
     <body>
         
         <header>
 			
             <div class="container">
-                <a href="index.html"><img id="logotipo" src="img/logo_radar.png" alt="Logotipo Radar"></a>
+                <a href="index.html"><img id="logotipo" src="../img/logo_radar.png" alt="Logotipo Radar"></a>
             </div>
 
             <div class="header-gray">
@@ -36,7 +36,7 @@ and open the template in the editor.
 
             <div class="pull-right">
 
-                <ul id="menu" class="nav nav-pills">
+                <ul id="menu" class="nav navbar-nav">
                     <li role="presentation"><a href="index.html">Início</a></li>
                     <li role="presentation" class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Temas<b class="caret"></b></a>
