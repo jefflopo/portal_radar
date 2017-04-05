@@ -73,7 +73,6 @@ header #logotipo {
 }
 #menu li.search {
     width: 182px;
-    transition-timing-function: cubic-bezier(1,-.91,.91,1);
     transition-duration: 1s;
 }
 #menu li.search.ativo {
