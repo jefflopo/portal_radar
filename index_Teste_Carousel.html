@@ -10,6 +10,7 @@ and open the template in the editor.
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="lib/owl.carousel/owl.carousel.css">
 	<link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/folha_estilo_ipea.css">
     </head>
@@ -23,70 +24,49 @@ and open the template in the editor.
 
             <div class="header-gray">
                 
-                <nav id="navBar-gray" class="navbar navbar-header" role="navigation">
-                    <div class="navbar-header">     
-                            
-                            <div class="pull-left">
-                                <a href="http://brasil.gov.br/">Brasil</a>
-                                <a href="http://www.servicos.gov.br/?pk_campaign=barrabrasil">Serviços</a>
-                            </div>
-                            
-                            <div class="center-block">
-                                <a href="http://brasil.gov.br/barra#participe">Participe</a>
-                                <a href="http://brasil.gov.br/barra#acesso-informacao">Acesso à Informação</a>
-                                <a href="http://www.planalto.gov.br/legislacao">Legislação</a>
-                            </div>
-                            
-                            <div class="pull-right">
-                                <a href="http://brasil.gov.br/barra#orgaos-atuacao-canais">Canais</a>
-                                <a href="http://www.vlibras.gov.br/"><i class="fa fa-sign-language"></i>VLibras</a>
-                            </div>
-                            
-                        </div>
-                </nav>
+                <a class="brasil" href="http://brasil.gov.br/">Brasil</a>
+                <a class="servicos" href="http://www.servicos.gov.br/?pk_campaign=barrabrasil">Serviços</a>
+                <a class="participe" href="http://brasil.gov.br/barra#participe">Participe</a>
+                <a class="informacao" href="http://brasil.gov.br/barra#acesso-informacao">Acesso à Informação</a>
+                <a class="legislacao" href="http://www.planalto.gov.br/legislacao">Legislação</a>
+                <a class="canais" href="http://brasil.gov.br/barra#orgaos-atuacao-canais">Canais</a>
+                <a class="vlibras" href="http://www.vlibras.gov.br/"><i class="fa fa-sign-language"></i>VLibras</a>
 
             </div>
 
-            <div class="exemplo-">
-                <nav id="navBar-gray" class="navbar navbar-default" role="navigation">
-                    <div class="container">
-                        <div class="collapse navbar-collapse">
-                                
-                            <ul class="nav navbar-nav">
-                                <li><a href="index.html">Início</a></li>
-                                <li class="dropdown">
-                                    <a class="dropdown-toggle" data-toggle="dropdown" role="button" 
-                                       aria-haspopup="true" aria-expanded="false" href="#">Temas
-                                        <span class="caret"></span></a>
-                                        <ul class="dropdown-menu">
-                                            <li><a href="agricultura.html">Agricultura</a></li>
-                                            <li role="separator" class="divider"></li>
-                                            <li><a href="ciencia_tecnologia.html">Ciência, Tecnologia e Inovação</a></li>
-                                            <li role="separator" class="divider"></li>
-                                            <li><a href="#">Comércio Exterior</a></li>
-                                            <li role="separator" class="divider"></li>
-                                            <li><a href="#">Educação</a></li>
-                                            <li role="separator" class="divider"></li>
-                                            <li><a href="#">Indústria</a></li>
-                                        </ul>
-                                </li>
-                                <li><a href="radarPDF.html">Radar PDF</a></li>
-                                <li class="search">
-                                    <div class="input-group">
-                                        <input type="search" placeholder="Pesquisar" id="input-search">
-                                        <span class="input-group-btn">
-                                            <button type="button"><i class="fa fa-search"></i></button>
-                                        </span>
-                                    </div><!-- /input-group -->
-                                </li>
-                            </ul>
+            <div class="pull-right">
 
-                        </div>
-                    </div>
-                </nav>
+                <ul id="menu" class="nav navbar-nav">
+                    <li role="presentation"><a href="index.html">Início</a></li>
+                    <li role="presentation" class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Temas<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                                <li><a href="view/agricultura.html">Agricultura</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="view/ciencia_tecnologia.html">Ciência, Tecnologia e Inovação</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">Comércio Exterior</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">Educação</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">Indústria</a></li>
+                        </ul>
+                    </li>
+                    <li role="presentation"><a href="view/radarPDF.html">Radar PDF</a></li>
+                    <li role="presentation" class="search">
+                        <div class="input-group">
+                            <input type="search" placeholder="Pesquisar" id="input-search">
+                            <span class="input-group-btn">
+                                <button type="button"><i class="fa fa-search"></i></button>
+                            </span>
+                        </div><!-- /input-group -->
+                    </li>
+                </ul>
+
             </div>			
 
 	</header>
+
         
         <section>
             
@@ -103,37 +83,89 @@ and open the template in the editor.
                     <hr>
                 </div>
                 
+             <!--   <div class="item">
+                    <div class="item-inner">
+                        <i class="fa fa-angle-left fa-5x fa-fw"></i>
+                    </div>                        
+                </div> -->
+                
                 <div class="row thumbnails">
                     
+                    
+                    
                     <div class="item">
-                        <div class="col-md-3">
+                        <div class="item-inner">
                             <h3>Artigo nº 48</h3>
                             <img src="img/170124_radar_48.jpg" alt="Artigo nº 48">
                             <time>2016 - Dezembro</time>
                         </div>
+                    </div>
                         
-                        <div class="col-md-3">
+                    <div class="item">
+                        <div class="item-inner">
                             <h3>Artigo nº 47</h3>
                             <img src="img/170124_radar_47.jpg" alt="Artigo nº 47">
                             <time>2016 - Outubro</time>
                         </div>
+                    </div>
                         
-                        <div class="col-md-3">
+                    <div class="item">
+                        <div class="item-inner">
                             <h3>Artigo nº 46</h3>
                             <img src="img/161108_radar_46.jpg" alt="Artigo nº 46">
                             <time>2016 - Agosto</time>
                         </div>
+                    </div>
                         
-                        <div class="col-md-3">
+                    <div class="item">
+                        <div class="item-inner">
                             <h3>Artigo nº 45</h3>
                             <img src="img/160714_radar_45.jpg" alt="Artigo nº 45">
                             <time>2016 - Junho</time>
                         </div>
                     </div>
                     
+                    <div class="item">
+                        <div class="item-inner">
+                            <h3>Artigo nº 44</h3>
+                            <img src="img/160502_radar_44.jpg" alt="Artigo nº 44">
+                            <time>2016 - Abril</time>
+                        </div>
+                    </div>
                     
+                    <div class="item">
+                        <div class="item-inner">
+                            <h3>Artigo nº 43</h3>
+                            <img src="img/160309_radar_43.jpg" alt="Artigo nº 43">
+                            <time>2016 - Fevereiro</time>
+                        </div>
+                    </div>
+                    
+                    <div class="item">
+                        <div class="item-inner">
+                            <h3>Artigo nº 42</h3>
+                            <img src="img/151228_radar_42.jpg" alt="Artigo nº 42">
+                            <time>2015 - Dezembro</time>
+                        </div>
+                    </div>
+                    
+                    <div class="item">
+                        <div class="item-inner">
+                            <h3>Artigo nº 41</h3>
+                            <img src="img/151106_radar_41.jpg" alt="Artigo nº 41">
+                            <time>2015 - Outubro</time>
+                        </div>
+                    </div>
                     
                 </div>
+                
+          <!--      <div class="item">  
+                        <div class="item-inner">
+                            <i class="fa fa-angle-right fa-5x fa-fw"></i>
+                        </div>                        
+                </div> -->
+                
+                
                 
             </div>
             
@@ -170,13 +202,19 @@ and open the template in the editor.
                         
                         <h2>Informações</h2>
                         <hr>
+                        <br/>
                         
                     </div>
                     
                     <div class="row">
                         
-                        <p>Adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat volup tatem. Uteni ad minima veniam, quis nostrum sed quia non numquam eius modi tempora incidunt ut. quia non numquam eius numquam eius modi temp modi tempora incidunt ut labore et dolore m.</p>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/XwippruKeV4?rel=0?ecver=1" frameborder="0" allowfullscreen></iframe>
                         
+                        <p>Lançada nesta segunda-feira (27) edição especial do boletim Radar, com seis textos que debatem o financiamento à educação pública de nível superior no Brasil. 
+                            <br/>Acesse a publicação em <a href="https://goo.gl/0uMu3v">IPEA/Radar</a>.
+                            <br/>
+                            Graziela Ferrero Zucoloto – chefe de Divisão de Estudos em Infraestrutura do Ipea</p>
+                        <time datetime="2017-03-27">27 de Março de 2017</time>
                     </div>
                     
                 </div>
@@ -271,8 +309,10 @@ and open the template in the editor.
         </footer>
         
         <script src="lib/jquery/jquery.min.js"></script>
+        <script src="lib/owl.carousel/owl.carousel.min.js"></script>
         <script src="lib/bootstrap/js/bootstrap.min.js"></script>
         <script src="lib/js/efeitos.js"></script>
         
     </body>
 </html>
+
