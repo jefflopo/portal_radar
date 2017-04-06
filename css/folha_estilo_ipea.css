@@ -202,6 +202,10 @@ header .pull-right {
     padding: 10px;
 }
 
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
+
 #sobre_radar {
     background-color: #68C3A3;
     width: 100%;
