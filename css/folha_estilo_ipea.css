@@ -206,6 +206,10 @@ header .pull-right {
     margin: 0 auto;
 }
 
+.carousel-inner > .item > .carousel-caption > h3, time {
+    color: #000;
+}
+
 #sobre_radar {
     background-color: #68C3A3;
     width: 100%;
