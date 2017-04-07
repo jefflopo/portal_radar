@@ -210,6 +210,26 @@ header .pull-right {
     color: #000;
 }
 
+.carousel-indicators li {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    margin: 0px;
+    text-indent: 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    background-color: #A7A7A7;
+    box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5);    
+}
+
+.carousel-indicators .active {
+    width: 18px;
+    height: 18px;
+    margin: 0px;
+    background-color: #ffff99;
+}
+
 #sobre_radar {
     background-color: #68C3A3;
     width: 100%;
