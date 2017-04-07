@@ -214,7 +214,7 @@ header .pull-right {
     display: inline-block;
     width: 18px;
     height: 18px;
-    margin: 0px;
+    margin: 0;
     text-indent: 0;
     cursor: pointer;
     border: none;
@@ -226,8 +226,21 @@ header .pull-right {
 .carousel-indicators .active {
     width: 18px;
     height: 18px;
-    margin: 0px;
+    margin: 0;
     background-color: #ffff99;
+}
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none
+}
+
+.carousel-control {
+    color: #A7A7A7;
+}
+
+.carousel:hover .carousel-control {
+    visibility: visible;
+    color: #ffff99;
 }
 
 #sobre_radar {
