@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Boletim Radar</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../lib/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../lib/owl.carousel/owl.carousel.css">
+	<link rel="stylesheet" href="../fonts/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="../css/folha_estilo_ipea.css">
+    </head>
+    <body>
+        
+        <header>
+			
+            <div class="container">
+                <a href="index.html"><img id="logotipo" src="../img/logo_radar.png" alt="Logotipo Radar"></a>
+            </div>
+
+            <div class="header-gray">
+                
+                <a class="brasil" href="http://brasil.gov.br/">Brasil</a>
+                <a class="servicos" href="http://www.servicos.gov.br/?pk_campaign=barrabrasil">Serviços</a>
+                <a class="participe" href="http://brasil.gov.br/barra#participe">Participe</a>
+                <a class="informacao" href="http://brasil.gov.br/barra#acesso-informacao">Acesso à Informação</a>
+                <a class="legislacao" href="http://www.planalto.gov.br/legislacao">Legislação</a>
+                <a class="canais" href="http://brasil.gov.br/barra#orgaos-atuacao-canais">Canais</a>
+                <a class="vlibras" href="http://www.vlibras.gov.br/"><i class="fa fa-sign-language"></i>VLibras</a>
+
+            </div>
+
+            <div class="pull-right">
+
+                <ul id="menu" class="nav nav-pills">
+                    <li role="presentation"><a href="../index.html">Início</a></li>
+                    <li role="presentation" class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Temas<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                                <li><a href="agricultura.html">Agricultura</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="ciencia_tecnologia.html">Ciência, Tecnologia e Inovação</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">Comércio Exterior</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">Educação</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">Indústria</a></li>
+                        </ul>
+                    </li>
+                    <li role="presentation"><a href="radarPDF.html">Radar PDF</a></li>
+                    <li role="presentation" class="search">
+                        <div class="input-group">
+                            <input type="search" placeholder="Pesquisar" id="input-search">
+                            <span class="input-group-btn">
+                                <button type="button"><i class="fa fa-search"></i></button>
+                            </span>
+                        </div><!-- /input-group -->
+                    </li>
+                </ul>
+
+            </div>			
+
+	</header>
+
+        
+        <section>
+            
+            <div id="banner">
+                <a href="http://www.ipea.gov.br/" target="_blank">
+                    <img src="../img/logo_ipea.png" alt="Logo do IPEA">
+                </a>
+            </div>
+            
+            <div id="edicoes" class="container">
+                
+                <div class="row text-center">
+                    <h2>Temas</h2>
+                    <hr>
+                </div>
+                
+                <div class="row">
+                    
+                    <div id="opcoesOrdenar" class="col-lg-3 col-md-3 col-sm-3 col-xs-3" >
+                    
+                        <label class="control-label" for="ordenar">Escolha o Tema:</label>
+                        <select class="select form-control" name="opcoes" data-toggle="select">
+                            <option value="agricult" selected>Agricultura</option>
+                            <option value="c&t">Ciência, Tecnologia e Inovação</option>
+                            <option value="comExt">Comércio Exterior</option>
+                            <option value="educac">Educação</option>
+                            <option value="indust">Indústria</option>
+                            <option value="infra">Infraestrutura</option>
+                            <option value="mercado">Mercado de Trabalho</option>
+                            <option value="politPub">Políticas Públicas</option>
+                            <option value="regula">Regulação</option>
+                            <option value="servicos">Serviços</option>
+                        </select>
+                        
+                    </div>
+                    
+                </div>
+                
+                <br><br>
+                
+                <div class="panel-group" id="opcoesOrdenar" role="tablist" aria-multiselectable="false">
+                    
+                    <div class="panel panel-success">
+                        
+                        <div class="panel-heading" role="tab" id="headingOne">
+                            
+                            <h4 class="panel-title">
+                                <a role="button" data-toggle="collapse" data-parent="#opcoesOrdenar" href="#collapseOne"
+                                    aria-expanded="false" aria-controls="collapseOne">
+                                       04/11/2016   |   Mesorregiões / Culturas Líderes Versus Oferta de Mão de Obra Específica
+                                </a>
+                            </h4>
+                            
+                        </div>
+                        
+                        <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                            
+                            <div class="panel-body">
+                                
+                                Este trabalho procura dar seguimento a três avaliações anteriores (Freitas e Maciente; 2015, 2016a, 2016b) e pretende somar-se a estes trabalhos para melhor compreender a disposição geográfica da demanda e da oferta de profissionais de nível técnico e superior para as culturas agrícolas e regiões geográficas anteriormente aferidas.
+
+No estudo anterior, Mesorregiões brasileiras com expansão de área agrícola, rastrearam-se as mesorregiões com maior ritmo de expansão de área agrícola. Destarte, entre 1994 e 2013, a expansão de área destinada à colheita no Brasil foi da ordem de 1,76% ao ano (a.a.). Tal número foi marcado pela expansão agrícola no sentido Centro-Noroeste. Entre os principais polos de crescimento, devem ser destacados os trechos orientais da região Norte em associação com as mesorregiões de Oriental do Tocantins, Sul Maranhense e Extremo Oeste Baiano. Igualmente, é relevante o movimento de ocupação de novas áreas ao sul da região Norte em transição com as mesorregiões do norte mato-grossense e nordeste mato-grossense.
+
+Autores: Rogério Edivaldo Freitas e Aguinaldo Nogueira Maciente
+                                
+                            </div>
+                            
+                        </div>
+                        
+                    </div>
+                    
+                    <div class="panel panel-success">
+                        
+                        <div class="panel-heading" role="tab" id="headingTwo">
+                            
+                            <h4 class="panel-title">
+                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#opcoesOrdenar" href="#collapseTwo"
+                                    aria-expanded="false" aria-controls="collapseTwo">
+                                       04/11/2016   |   Desafios do Financimento Agropecuário: o complexto produtivo seja-milho-aves
+                                </a>
+                            </h4>
+                            
+                        </div>
+                        
+                        <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                            
+                            <div class="panel-body">
+                                
+                                Este trabalho inicia uma série de estudos sobre a evolução e os desafios do complexo produtivo soja-milho-aves no Brasil. As cadeias da soja, do milho e de aves são casos de sucesso produtivo no país e se situam entre as atividades de maior demanda de crédito, podendo oferecer parâmetros para análise de oportunidades e limites em outras atividades agroindustriais.
+
+Isto posto, o presente trabalho ocupa-se de investigar dados e características do crédito oficial agropecuário no âmbito do mencionado complexo produtivo e, principalmente, dos cultivos de soja e de milho. É esperança dos autores que os trabalhos, gradativamente, sejam base para o aperfeiçoamento de políticas públicas para a agropecuária e a agroindústria, inclusive levantando pontos que indiquem possíveis estrangulamentos ou inconsistências na política de crédito agrícola.
+
+Autores: Rogério Edivaldo Freitas e Gesmar Rosa dos Santos
+                                
+                            </div>
+                            
+                        </div>
+                        
+                    </div>
+                    
+                    <div class="panel panel-success">
+                        
+                        <div class="panel-heading" role="tab" id="headingThree">
+                            
+                            <h4 class="panel-title">
+                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#opcoesOrdenar" href="#collapseThree"
+                                    aria-expanded="false" aria-controls="collapseThree">
+                                       04/06/2016   |   Dinâmica Endógena de Firmas Formadas por Agentes em Rede: uma análise exploratória
+                                </a>
+                            </h4>
+                            
+                        </div>
+                        
+                        <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                            
+                            <div class="panel-body">
+                                
+                                A hipótese de Coase (1937) sobre a natureza da firma faz uso do princípio de que as organizações servem ao propósito de reduzir os custos de transação, implicando a ideia da firma como resultado ótimo a partir de restrições contratuais, e não necessariamente como resultado de limitações produtivas. Dessa forma, os atributos, tanto implícitos quanto explícitos, do desenho dos contratos seriam implementados no intuito de se minimizar os custos de transação entre os fatores especializados de produção. O comportamento da firma seria, então, o resultado de um processo complexo de decisão conjunta dentro de uma rede de relações de agência.
+
+Autores: Bernardo Alves Furtado, Alexandre Messa, Isaque Daniel Rocha Eberhardt e Aguinaldo N. Maciente
+                                
+                            </div>
+                            
+                        </div>
+                        
+                    </div>
+                    
+                    
+                    
+                    
+                            
+                          <!--  <div id="opcoesOrdenar" class="col-lg-3 col-md-3 col-sm-3 col-xs-3" >
+                    
+                                <label class="control-label" for="ordenar">Escolha o Tema:</label>
+                                <select class="select form-control" name="opcoes" data-toggle="select">
+                                    <option value="agricult" selected>Agricultura</option>
+                                    <option value="c&t">Ciência, Tecnologia e Inovação</option>
+                                    <option value="comExt">Comércio Exterior</option>
+                                    <option value="educac">Educação</option>
+                                    <option value="indust">Indústria</option>
+                                    <option value="infra">Infraestrutura</option>
+                                    <option value="mercado">Mercado de Trabalho</option>
+                                    <option value="politPub">Políticas Públicas</option>
+                                    <option value="regula">Regulação</option>
+                                    <option value="servicos">Serviços</option>
+                                </select>
+
+                            </div> -->
+                    
+                </div>
+                
+            </div>
+            
+        </section>
+        
+        <footer>
+            
+            <div class="row row-verde_silver_tree">
+                
+                <div class="container">
+                    
+                    <div class="row">
+                        
+                        <div class="col-md-12">
+                            
+                            <div class="col-md-4 col-mais-acessados">
+                                
+                                <h4>Mais Acessados</h4>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <h5>Neque porro quisquam est, quister.</h5>
+                                        <time>January 01, 2016</time>
+                                    </li>
+                                    <li>
+                                        <h5>Neque porro quisquam est, quister.</h5>
+                                        <time>January 01, 2016</time>
+                                    </li>
+                                </ul>
+                                
+                            </div>
+                            
+                            <div class="col-md-4 col-links">
+                                
+                                <h4>LINKS</h4>
+                                <ul class="list-unstyled">
+                                    <li><a href="http://www.ipea.gov.br" target="_blank"><i class=" fa fa-angle-right"></i>IPEA</a></li>
+                                    <li><a href="" target="_blank"><i class="fa fa-angle-right"></i>Temas</a></li>
+                                    <li><a href="http://portal.ipea.gov.br/radar/radar-em-pdf" target="_blank"><i class="fa fa-angle-right"></i>Radar PDF</a></li>
+                                </ul>
+                                
+                            </div>
+                            
+                            <div class="col-md-4 col-contatos">
+                                
+                                <h4>CONTATOS</h4>
+                                
+                                <address>
+                                    <i class="fa fa-map-marker"></i> <span>Ipea - Brasília <small>SBS - Quadra 1 - Bloco J - Ed. BNDES 70076-900 - Brasília - DF - Brasil</small></span>
+                                </address>
+                                
+                                <p><a href="06120265422"><i class="fa fa-phone"></i>(61)2026-5422</a></p>
+                                
+                                <ul class="list-unstyled list-socials">
+                                    
+                                    <li>
+                                        <a href="https://www.facebook.com/IPEA1964" target="_blank"><i class="fa fa-facebook"></i></a>
+                                    </li>
+                                    
+                                    <li>
+                                        <a href="https://twitter.com/ipeaonline" target="_blank"><i class="fa fa-twitter"></i></a>
+                                    </li>
+                                    
+                                    <li>
+                                        <a href="https://www.youtube.com/user/agenciaipea" target="_blank"><i class="fa fa-youtube"></i></a>
+                                    </li>
+                                    
+                                </ul>
+                                
+                            </div>
+                            
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="row row-caribbean_green">
+                
+                <div class="container">
+                    
+                    <p class="center-block">Copyright © 2017 Sites Ipea. Todos os direitos reservados.</p>
+                    
+                </div>
+                
+            </div>
+            
+        </footer>
+        
+        <script src="../lib/jquery/jquery.min.js"></script>
+        <script src="../lib/owl.carousel/owl.carousel.min.js"></script>
+        <script src="../lib/bootstrap/js/bootstrap.min.js"></script>
+        <script src="../lib/js/efeitos.js"></script>
+        
+    </body>
+</html>
