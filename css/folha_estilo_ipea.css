@@ -18,10 +18,10 @@ header .container {
 	position: absolute;
 }
 header .header-gray {
-	background-color: #CDCDCD;
-	height: 40px;
+    background-color: #CDCDCD;
+    height: 40px;
 }
-header .header-gray li {
+header .header-gray a {
     background-repeat: no-repeat;
     display: inline-block;
     margin: 4px;
