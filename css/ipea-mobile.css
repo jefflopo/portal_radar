@@ -6,10 +6,51 @@
 /* Tamanho padrão para tablets */
 @media only screen and (max-width: 768px) {
     
+    .header-gray a {
+        display: none;
+    }
+    
 }
 
 /* Tamanho padrão para smartphones */
 @media only screen and (max-width: 480px) {
+    
+    header .header-gray .brasil {       
+        display: none; 
+    }
+    
+    header .header-gray .servicos {
+        display: none;
+    }
+    
+    header .header-gray  .participe {
+        display: none;
+    }
+    
+    header .header-gray .informacao {
+        display: none;
+    }
+    header .header-gray .legislacao {
+        display: none;
+    }
+    
+    header .header-gray .canais {
+        display: none;
+    }
+    
+    header .header-gray .vlibras {
+        display: none;
+    }
+    
+    header #menu {
+        display: none;
+    }
+    
+    header #logotipo {
+        left: 32%;
+        z-index: 10;
+	transition: 1s;
+    }
     
 }
 
