@@ -15,30 +15,30 @@
 /* Tamanho padrão para smartphones */
 @media only screen and (max-width: 480px) {
     
-    header .header-gray .brasil {       
+    header .header-gray #br {       
         display: none; 
     }
     
-    header .header-gray .servicos {
+    header .header-gray #ser {
         display: none;
     }
     
-    header .header-gray  .participe {
+    header .header-gray  #part {
         display: none;
     }
     
-    header .header-gray .informacao {
+    header .header-gray #inf {
         display: none;
     }
-    header .header-gray .legislacao {
-        display: none;
-    }
-    
-    header .header-gray .canais {
+    header .header-gray #leg {
         display: none;
     }
     
-    header .header-gray .vlibras {
+    header .header-gray #canais {
+        display: none;
+    }
+    
+    header .header-gray #vlibr {
         display: none;
     }
     
