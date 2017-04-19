@@ -13,7 +13,7 @@
 }
 
 /* Tamanho padrão para smartphones */
-@media only screen and (max-width: 480px) {
+@media only screen and (min-width: 480px) {
     
     #menu {
         display: none;
@@ -23,30 +23,30 @@
         display: none; 
     }
     
-    header .header-gray #ser {
+    .header-gray #ser {
         display: none;
     }
     
-    header .header-gray  #part {
+    .header-gray  #part {
         display: none;
     }
     
-    header .header-gray #inf {
+    .header-gray #inf {
         display: none;
     }
-    header .header-gray #leg {
-        display: none;
-    }
-    
-    header .header-gray #canais {
+    .header-gray #leg {
         display: none;
     }
     
-    header .header-gray #vlibr {
+    .header-gray #canais {
         display: none;
     }
     
-    header #menu {
+    .header-gray #vlibr {
+        display: none;
+    }
+    
+    #menu {
         display: none;
     }
     
@@ -57,13 +57,15 @@
         color: #fff;
         font-size: 22px;
         position: absolute;
-        top: 10px;
+        top: 4px;
+        background: none;
+        border: none;
     }
     #btn-bars {
-        left: 0;
+        left: 4px;
     }
     #btn-search {
-        right: 0;
+        right: 4px;
     }
     
     
