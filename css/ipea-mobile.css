@@ -15,7 +15,11 @@
 /* Tamanho padrão para smartphones */
 @media only screen and (max-width: 480px) {
     
-    header .header-gray #br {       
+    #menu {
+        display: none;
+    }
+    
+    .header-gray #br {       
         display: none; 
     }
     
@@ -46,11 +50,23 @@
         display: none;
     }
     
-    header #logotipo {
+    #logotipo {
         left: 32%;
-        z-index: 10;
-	transition: 1s;
     }
+    #btn-bars, #btn-search {
+        color: #fff;
+        font-size: 22px;
+        position: absolute;
+        top: 10px;
+    }
+    #btn-bars {
+        left: 0;
+    }
+    #btn-search {
+        right: 0;
+    }
+    
+    
     
 }
 
