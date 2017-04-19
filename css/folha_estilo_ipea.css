@@ -15,44 +15,44 @@ header {
     position: relative;
 }
 header .container {
-	position: absolute;
+	position: relative;
 }
 header .header-gray {
     background-color: #CDCDCD;
     height: 40px;
 }
-header .header-gray a {
+header .header-gray li {
     background-repeat: no-repeat;
     display: inline-block;
     margin: 4px;
 }
-header .header-gray .brasil {
+header .header-gray li.br {
 	background-position: 0px 0px;
 }
-header .header-gray .servicos {
+header .header-gray li.ser {
 	background-position: -48px 0px;
 }
-header .header-gray .participe {
+header .header-gray li.participe {
 	background-position: -95px 0px;
 }
-header .header-gray .informacao {
+header .header-gray li.informacao {
 	background-position: -140px 0px;
 }
-header .header-gray .legislacao {
+header .header-gray li.legislacao {
     background-position: -189px 0px;
 }
-header .header-gray .canais {
+header .header-gray li.canais {
     background-position: -239px 0px;
 }
-header .header-gray .vlibras {
+header .header-gray li.vlibras {
     background-position: -288px 0px;
 }
 header .header-gray a {
     width: 64px;
     height: 64px;
     display: inline;
-    margin-left: 148px;
-    margin-right: 8px;
+    margin-left: 52px;
+    margin-right: 33px;
 }
 header #logotipo {
     position: absolute;
