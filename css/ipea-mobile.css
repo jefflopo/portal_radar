@@ -5,11 +5,11 @@
 
 /* Tamanho padrão para tablets */
 @media only screen and (max-width: 768px) {
-    
+
     .header-gray a {
         display: none;
     }
-    
+        
 }
 
 /* Tamanho padrão para smartphones */
