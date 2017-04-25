@@ -93,7 +93,11 @@
     }
     footer .row-caribbean_green {
         width: inherit;
-        height: inherit;
+        height: 74px;
+    }
+    footer .row-caribbean_green p {
+        margin-top: 15px;
+        margin-left: 22px;
     }
     
     
