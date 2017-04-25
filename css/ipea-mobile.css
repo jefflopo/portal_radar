@@ -83,6 +83,10 @@
     #sobre_radar {
         height: inherit;
     }
+    #video- {
+        max-width: 380px;
+        max-height: inherit;
+    }
     
     
     
