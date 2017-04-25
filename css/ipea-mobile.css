@@ -75,6 +75,11 @@
     #banner img {
         display: none;
     }
+    .item img {
+        max-width: 250px;
+        max-height: 356px;
+        
+    }
     
     
     
