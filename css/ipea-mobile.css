@@ -80,6 +80,9 @@
         max-height: 356px;
         
     }
+    #sobre_radar {
+        height: inherit;
+    }
     
     
     
