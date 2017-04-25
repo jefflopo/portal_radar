@@ -413,4 +413,7 @@ footer .list-socials i {
     font-size: 16px;
     margin: 7px auto;
 }
+#btn-bars, #btn-search {
+    display: none;
+}
 
