@@ -13,9 +13,9 @@
 }
 
 /* Tamanho padrão para smartphones */
-@media (min-width: 480px) {
+@media only screen and (max-width: 480px ) {
     
-    #menu {
+    .header-gray .container {
         display: none;
     }
     
@@ -60,12 +60,20 @@
         top: 4px;
         background: none;
         border: none;
+        display: block !important;
     }
     #btn-bars {
         left: 4px;
     }
     #btn-search {
         right: 4px;
+    }
+    #banner {
+        height: 158px;
+        background-position: 0;
+    }
+    #banner img {
+        display: none;
     }
     
     
