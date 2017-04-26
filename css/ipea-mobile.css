@@ -51,7 +51,7 @@
     }
     
     #logotipo {
-        left: 32%;
+        left: 10% !important;
     }
     #btn-bars, #btn-search {
         color: #fff;
@@ -82,7 +82,7 @@
     }
     #sobre_radar {
         height: inherit;
-        width: 96%;
+        width: 100%;
     }
     
     #video- {
@@ -90,16 +90,16 @@
         max-height: inherit;
     }
     footer .row-verde_silver_tree {
-        width: 96%;
+        width: 104%;
         height: inherit;
     }
     footer .row-caribbean_green {
-        width: 96%;
+        width: 104%;
         height: 74px;
     }
     footer .row-caribbean_green p {
         margin-top: 15px;
-        margin-left: 22px;
+        margin-left: 20px;
     }
     #publicacoes h2 {
         font-size: 32px;
