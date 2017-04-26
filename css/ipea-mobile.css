@@ -6,8 +6,12 @@
 /* Tamanho padrão para tablets */
 @media only screen and (max-width: 768px) {
 
-    .header-gray a {
+    .header-gray .container {
         display: none;
+    }
+    
+    .header-gray #br, #ser, #part, #inf,#leg,#canais,#vlibr {       
+        display: none; 
     }
         
 }
@@ -19,35 +23,8 @@
         display: none;
     }
     
-    .header-gray #br {       
+    .header-gray #br, #ser, #part, #inf,#leg,#canais,#vlibr,#menu {       
         display: none; 
-    }
-    
-    .header-gray #ser {
-        display: none;
-    }
-    
-    .header-gray  #part {
-        display: none;
-    }
-    
-    .header-gray #inf {
-        display: none;
-    }
-    .header-gray #leg {
-        display: none;
-    }
-    
-    .header-gray #canais {
-        display: none;
-    }
-    
-    .header-gray #vlibr {
-        display: none;
-    }
-    
-    #menu {
-        display: none;
     }
     
     #logotipo {
