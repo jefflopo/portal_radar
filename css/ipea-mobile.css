@@ -63,7 +63,7 @@
     }
     
     #video- {
-        max-width: 80%;
+        max-width: 90%;
         max-height: inherit;
     }
     footer .row-verde_silver_tree {
@@ -91,9 +91,10 @@
     #call-to-action hr {
         border-width: 4px;
     }
-    #call-to-action p {
-        margin-top: 40px;
-        margin-bottom: 20px;
+    #call-to-action p, time {
+        margin-top: 35px;
+        margin-bottom: 18px;
+        font-size: 18px;
     }
     
     
