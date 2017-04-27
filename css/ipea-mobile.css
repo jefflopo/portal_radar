@@ -137,6 +137,9 @@
         height: 76px;
         left: calc(40% - 33px);
     }
+    .carousel-indicators {
+        z-index: 1;
+    }
     
     
     
