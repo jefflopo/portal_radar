@@ -79,6 +79,15 @@
         margin-top: 15px;
         margin-left: 20px;
     }
+    footer .list-socials a {
+        width: 58px;
+        height: 58px;
+        border-radius: 50%;
+    }
+    footer .list-socials i {
+        font-size: 36px;
+        margin: 9px;
+    }
     #publicacoes h2 {
         font-size: 32px;
     }
@@ -96,6 +105,11 @@
         margin-top: 35px;
         margin-bottom: 18px;
         font-size: 18px;
+    }
+    header .header-gray {
+        position: fixed;
+        top: 0;
+        width: 100%;
     }
     header #menu-mobile {
         position: fixed;
