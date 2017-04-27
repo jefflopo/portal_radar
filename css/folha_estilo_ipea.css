@@ -416,4 +416,7 @@ footer .list-socials i {
 #btn-bars, #btn-search {
     display: none;
 }
+.page-up {
+    display: none!important;
+}
 
