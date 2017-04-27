@@ -133,7 +133,7 @@
     }
     header.open-menu #logotipo {
         position: fixed;
-        top: 50px;
+        top: 40px;
         height: 76px;
         left: calc(40% - 33px);
     }
