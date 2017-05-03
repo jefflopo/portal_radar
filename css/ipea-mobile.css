@@ -198,6 +198,9 @@
     header.open-search #logotipo {
         z-index: 9;
     }
+    .page-up {
+        display: inherit;
+    }
     
     
     
