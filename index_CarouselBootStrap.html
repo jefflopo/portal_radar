@@ -28,18 +28,21 @@ and open the template in the editor.
                 <ul class="list-unstyled">
                     <li role="presentation"><a href="index_CarouselBootStrap.html">Início</a></li>
                     <li role="presentation" class="dropdown-toggle">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Temas<b class="caret"></b></a>
-                        <ul class="dropdown-menu">
+                        <div class="panel-heading" role="tab" id="headingOne">
+                            <a role="button" data-toggle="collapse" data-parent="#opcoesOrdenar" href="#collapseOne"
+                                    aria-expanded="false" aria-controls="collapseOne">
+                                Temas<span class="caret"></span>
+                            </a>
+                        </div>
+                        <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                            <ul class="list-unstyled">
                                 <li><a href="view/agricultura.html">Agricultura</a></li>
-                                <li role="separator" class="divider"></li>
                                 <li><a href="view/ciencia_tecnologia.html">Ciência, Tecnologia e Inovação</a></li>
-                                <li role="separator" class="divider"></li>
                                 <li><a href="#">Comércio Exterior</a></li>
-                                <li role="separator" class="divider"></li>
                                 <li><a href="#">Educação</a></li>
-                                <li role="separator" class="divider"></li>
                                 <li><a href="#">Indústria</a></li>
-                        </ul>
+                            </ul>
+                        </div>
                     </li>
                     <li><a href="view/radarPDF.html">Radar PDF</a></li>
                 </ul>
