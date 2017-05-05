@@ -201,7 +201,17 @@
     .page-up {
         display: inherit;
     }
+    .dropdown-menu {
+        max-height: 400px;
+        overflow: hidden;
+        overflow-y: auto;
+    }
+    header.open-menu #menu-mobile ul{
+        margin-left: 56px;
+        margin-top: 86px;
+    }
     
+        
     
     
     
