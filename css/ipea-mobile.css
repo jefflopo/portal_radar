@@ -210,6 +210,17 @@
         margin-left: 56px;
         margin-top: 86px;
     }
+    #opcoesOrdenar {
+            margin: 25px;
+            margin-right: 0px;
+            width: 100%;
+    }
+    #edicoes h2 {
+        font-size: 32px;
+    }
+    #edicoes hr {
+        border-width: 4px;
+    }
     
         
     
