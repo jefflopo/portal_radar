@@ -225,6 +225,40 @@
         left: 26px;
         padding: 88px;
     }
+    #btn-artigo-prev, #btn-artigo-next {
+        background: none;
+        border: none;
+        color: #03c9a9;
+        font-size: 48px;
+        display: grid;
+        position: absolute;
+        top: 389px;
+        z-index: 1;
+        outline: 0;
+    }
+    #btn-artigo-next {
+        left: 288px;
+    }
+    #btn-artigo-prev {
+        left: 45px;
+    }
+    #btn2-artigo-prev, #btn2-artigo-next {
+        background: none;
+        border: none;
+        color: #03c9a9;
+        font-size: 48px;
+        display: grid;
+        position: absolute;
+        top: 860px;
+        z-index: 1;
+        outline: 0;
+    }
+    #btn2-artigo-next {
+        left: 288px;
+    }
+    #btn2-artigo-prev {
+        left: 45px;
+    }
     
         
     

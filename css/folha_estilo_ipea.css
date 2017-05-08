@@ -419,4 +419,6 @@ footer .list-socials i {
 .page-up {
     display: none;
 }
-
+#btn-artigo-prev, #btn-artigo-next, #btn2-artigo-prev, #btn2-artigo-next {
+	display: none;
+}
