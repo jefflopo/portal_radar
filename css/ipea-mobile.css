@@ -225,6 +225,9 @@
         left: 26px;
         padding: 88px;
     }
+    .owl-controls .owl-prev, .owl-next {
+        display: none;
+    }
     #btn-artigo-prev, #btn-artigo-next {
         background: none;
         border: none;
