@@ -5,13 +5,46 @@
 
 /* Tamanho padrão para tablets */
 @media only screen and (max-width: 768px) {
-
-    .header-gray .container {
-        display: none;
-    }
     
-    .header-gray #br, #ser, #part, #inf,#leg,#canais,#vlibr {       
-        display: none; 
+    header #logotipo {
+        left: 0% !important;
+        transition: 1s;
+        
+    }
+    #sobre_radar {
+        height: inherit;
+        width: 100%;
+    }
+    #banner img {
+        top: 100px;
+        position: relative;
+        margin-left: 598px;
+        z-index: 2;
+    }
+    #video- {
+        max-width: 100%;
+        max-height: inherit;
+    }
+    footer .row-verde_silver_tree {
+        width: 100%;
+        height: inherit;
+    }
+    footer .row-caribbean_green {
+        width: 100%;
+        height: 74px;
+    }
+    footer .row-caribbean_green p {
+        margin-top: 15px;
+        margin-left: 20px;
+    }
+    footer .list-socials a {
+        width: 110px;
+        height: 110px;
+        border-radius: 50%;
+    }
+    footer .list-socials i {
+        font-size: 72px;
+        margin: 18px;
     }
         
 }
