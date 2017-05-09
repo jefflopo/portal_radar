@@ -233,7 +233,7 @@
         border: none;
         color: #03c9a9;
         font-size: 48px;
-        display: grid;
+        display: block;
         position: absolute;
         top: 389px;
         z-index: 1;
@@ -250,7 +250,7 @@
         border: none;
         color: #03c9a9;
         font-size: 48px;
-        display: grid;
+        display: block;
         position: absolute;
         top: 860px;
         z-index: 1;
