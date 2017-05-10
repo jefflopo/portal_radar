@@ -11,6 +11,10 @@
         transition: 1s;
         
     }
+    header .pull-right {
+        margin-top: 29px;
+        margin-right: 0;
+    }
     #menu li a {
         font-size: 15px;
     }
