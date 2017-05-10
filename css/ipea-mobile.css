@@ -56,7 +56,7 @@
     }
     footer .row-caribbean_green {
         width: 102%;
-        height: 75px;
+        height: inherit;
     }
     footer .row-caribbean_green p {
         margin-top: 15px;
