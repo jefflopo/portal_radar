@@ -34,6 +34,9 @@
         margin-left: 598px;
         z-index: 2;
     }
+    #menu-mobile-2 {
+        margin-top: 176px;
+    }
     #video- {
         max-width: 100%;
         max-height: inherit;
