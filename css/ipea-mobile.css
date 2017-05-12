@@ -19,6 +19,9 @@
         font-size: 15px;
         padding: 12px 20px;
     }
+    .carousel {
+        z-index: 1;
+    }
     #opcoesOrdenar {
         margin: 25px;
         margin-right: 0px;
