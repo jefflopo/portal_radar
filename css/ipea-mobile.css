@@ -322,6 +322,16 @@
         font-size: 22px;
         
     }
+    .panel-footer {
+        background-color: #CDCDCD;
+    }
+    .panel-footer .btn-close {
+        background: none;
+        border: none;
+        color: #03c9a9;
+        font-size: 22px;
+        height: 40px;
+    }
     header #input-search-mobile{
         transition: 1s;
         top: -40px;
