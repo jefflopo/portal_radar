@@ -269,6 +269,7 @@
     }
     header.open-menu #menu-mobile {
         left:0;
+        z-index: 1;
     }
     header.open-menu #menu-mobile-mask {
         position: fixed;
