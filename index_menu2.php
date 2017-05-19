@@ -1,3 +1,19 @@
+<?php
+    require_once ("inc/configuration.php");
+    
+    $sql = new Sql();
+    
+    $result = $sql->query("SELECT * FROM tb_publicacoes;");
+    
+    while ($row = mysqli_fetch_array($result)) {
+        
+        var_dump($row);
+        
+    }
+    
+    exit;
+?>
+
 <!DOCTYPE html>
 <!--
 To change this license header, choose License Headers in Project Properties.
