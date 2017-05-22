@@ -42,7 +42,7 @@ and open the template in the editor.
             </div>
             			
             <div class="container">
-                <a href="../index_menu2.php"><img id="logotipo" src="../img/logo_radar.png" alt="Logotipo Radar"></a>
+                <a href="../index_menu2.php/"><img id="logotipo" src="../img/logo_radar.png" alt="Logotipo Radar"></a>
             </div>
 
             <div class="header-gray">
