@@ -9,11 +9,11 @@ and open the template in the editor.
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Boletim Radar</title> 
-        <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
-        <link rel="stylesheet" href="lib/owl.carousel/owl.carousel.css">
-	<link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
-	<link rel="stylesheet" href="css/folha_estilo_ipea.css">
-        <link rel="stylesheet" href="css/ipea-mobile.css">
+        <link rel="stylesheet" href="../lib/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../lib/owl.carousel/owl.carousel.css">
+	<link rel="stylesheet" href="../fonts/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="../css/folha_estilo_ipea.css">
+        <link rel="stylesheet" href="../css/ipea-mobile.css">
     </head>
     <body>
         
@@ -42,7 +42,7 @@ and open the template in the editor.
             </div>
             			
             <div class="container">
-                <a href="index_CarouselBootStrap.html"><img id="logotipo" src="img/logo_radar.png" alt="Logotipo Radar"></a>
+                <a href="../index_menu2.php"><img id="logotipo" src="../img/logo_radar.png" alt="Logotipo Radar"></a>
             </div>
 
             <div class="header-gray">
