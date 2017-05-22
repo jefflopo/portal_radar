@@ -14,6 +14,7 @@ and open the template in the editor.
 	<link rel="stylesheet" href="../fonts/font-awesome/css/font-awesome.min.css">
 	<link rel="stylesheet" href="../css/folha_estilo_ipea.css">
         <link rel="stylesheet" href="../css/ipea-mobile.css">
+        <script src="../lib/angularjs/angular.min.js"></script>
     </head>
     <body>
         
