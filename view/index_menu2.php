@@ -30,7 +30,7 @@
 
                         <div class="carousel-inner" role="listbox">
                             <div class="item active">
-                                <img src="img/thumbs/nova_thumb_48.jpg" alt="Artigo nº 48" class="img-thumbnail">
+                                <img src="../img/thumbs/nova_thumb_48.jpg" alt="Artigo nº 48" class="img-thumbnail">
                                 <div class="carousel-caption">
                                     <h3>Artigo nº 48</h3>
                                     <time>2016 - Dezembro</time>
@@ -38,7 +38,7 @@
                             </div>
 
                             <div class="item">
-                                <img src="img/thumbs/nova_thumb_47.jpg" alt="Artigo nº 47" class="img-thumbnail">
+                                <img src="../img/thumbs/nova_thumb_47.jpg" alt="Artigo nº 47" class="img-thumbnail">
                                 <div class="carousel-caption">
                                     <h3>Artigo nº 47</h3>
                                     <time>2016 - Outubro</time>
@@ -46,14 +46,14 @@
                             </div>
 
                             <div class="item">
-                                <img src="img/thumbs/nova_thumb_46.jpg" alt="Artigo nº 46" class="img-thumbnail">
+                                <img src="../img/thumbs/nova_thumb_46.jpg" alt="Artigo nº 46" class="img-thumbnail">
                                 <div class="carousel-caption">
                                     <h3>Artigo nº 46</h3>
                                     <time>2016 - Agosto</time>
                                 </div>
                             </div>
                             <div class="item">
-                                <img src="img/thumbs/nova_thumb_45.jpg" alt="Artigo nº 45" class="img-thumbnail">
+                                <img src="../img/thumbs/nova_thumb_45.jpg" alt="Artigo nº 45" class="img-thumbnail">
                                 <div class="carousel-caption">
                                     <h3>Artigo nº 45</h3>
                                     <time>2016 - Junho</time>
