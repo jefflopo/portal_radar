@@ -27,8 +27,7 @@ $app = new Slim\App();
  * is an anonymous function.
  */
 $app->get('/', function ($request, $response, $args) {
-    $response->write("Welcome to Slim!");
-    return $response;
+    require_once ("view/index_menu2.php");
 });
 
 $app->get('/hello[/{name}]', function ($request, $response, $args) {
