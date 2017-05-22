@@ -79,13 +79,13 @@ and open the template in the editor.
             <div class="pull-right">
 
                 <ul id="menu" class="nav navbar-nav">
-                    <li role="presentation"><a href="index_CarouselBootStrap.html">Início</a></li>
+                    <li role="presentation"><a href="../index_menu2.php/">Início</a></li>
                     <li role="presentation" class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Temas<b class="caret"></b></a>
                         <ul class="dropdown-menu">
-                                <li><a href="view/agricultura.html">Agricultura</a></li>
+                                <li><a href="../view/agricultura.php">Agricultura</a></li>
                                 <li role="separator" class="divider"></li>
-                                <li><a href="view/ciencia_tecnologia.html">Ciência, Tecnologia e Inovação</a></li>
+                                <li><a href="../view/ciencia_tecnologia.php">Ciência, Tecnologia e Inovação</a></li>
                                 <li role="separator" class="divider"></li>
                                 <li><a href="#">Comércio Exterior</a></li>
                                 <li role="separator" class="divider"></li>
@@ -94,7 +94,7 @@ and open the template in the editor.
                                 <li><a href="#">Indústria</a></li>
                         </ul>
                     </li>
-                    <li role="presentation"><a href="view/radarPDF.html">Radar PDF</a></li>
+                    <li role="presentation"><a href="../view/radarPDF.html">Radar PDF</a></li>
                     <li role="presentation" class="search">
                         <div class="input-group">
                             <input type="search" placeholder="Pesquisar" id="input-search">
@@ -121,15 +121,15 @@ and open the template in the editor.
                         </div>
                         <div id="collapse1" class="panel-collapse collapse">
                             <ul class="list-group">
-                                <li class="list-group-item" role="presentation"><a href="index_CarouselBootStrap.html">Início</a></li>
+                                <li class="list-group-item" role="presentation"><a href="../index_menu2.php/">Início</a></li>
                                 <li class="list-group-item dropdown" role="presentation">
                                     <a href="#collapse2" data-toggle="collapse">
                                         Temas
                                         <span class="caret"></span>
                                     </a>
                                     <ul id="collapse2" class="panel-collapse collapse">
-                                        <li class="list-group-item"><a href="view/agricultura.html">Agricultura</a></li>
-                                        <li class="list-group-item"><a href="view/ciencia_tecnologia.html">Ciência, Tecnologia e Inovação</a></li>
+                                        <li class="list-group-item"><a href="../view/agricultura.php">Agricultura</a></li>
+                                        <li class="list-group-item"><a href="../view/ciencia_tecnologia.php">Ciência, Tecnologia e Inovação</a></li>
                                         <li class="list-group-item"><a href="#">Comércio Exterior</a></li>
                                         <li class="list-group-item"><a href="#">Educação</a></li>
                                         <li class="list-group-item"><a href="#">Indústria</a></li>
@@ -141,7 +141,7 @@ and open the template in the editor.
                                     </ul>
 
                                 </li>
-                                <li class="list-group-item" role="presentation"><a href="view/radarPDF.html">Radar PDF</a></li>
+                                <li class="list-group-item" role="presentation"><a href="../view/radarPDF.php">Radar PDF</a></li>
                                 <li class="list-group-item" role="presentation"><a href="http://www.ipea.gov.br/portal/" target="_blank">IPEA</a></li>
                             </ul>
                             <div id="footer" class="panel-footer">
