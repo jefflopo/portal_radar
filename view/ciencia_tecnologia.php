@@ -3,12 +3,6 @@
         
         <section>
             
-            <div id="banner">
-                <a href="http://www.ipea.gov.br/" target="_blank">
-                    <img src="../img/logo_ipea.png" alt="Logo do IPEA">
-                </a>
-            </div>
-            
             <div id="edicoes" class="container">
                 
                 <div class="row text-center">
