@@ -26,7 +26,7 @@ $app = new Slim\App();
  * argument for `Slim::get`, `Slim::post`, `Slim::put`, `Slim::patch`, and `Slim::delete`
  * is an anonymous function.
  */
-$app->get('/', function ($request, $response, $args) {
+$app->get('/index', function ($request, $response, $args) {
     require_once ("view/index_menu2.php");
 });
 
@@ -44,6 +44,18 @@ $app->get('/radar', function ($request, $response, $args) {
 
 $app->get('/temas', function ($request, $response, $args) {
     require_once ("view/temasRadar.php");
+});
+
+$app->get('/test', function(){
+    
+    $sql = new Sql();
+    
+    $data = $sql->select("SELECT * FROM tb_publicacoes order by num_edicao desc limit 4;");
+    
+    var_dump($data);
+    exit;
+    
+    echo json_encode($data);
 });
 
 $app->get('/hello[/{name}]', function ($request, $response, $args) {
