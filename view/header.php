@@ -157,3 +157,9 @@ and open the template in the editor.
             </div>
 
 	</header>
+        
+        <div id="banner">
+            <a href="http://www.ipea.gov.br/" target="_blank">
+                <img src="../img/logo_ipea.png" alt="Logo do IPEA">
+            </a>
+        </div>
