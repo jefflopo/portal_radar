@@ -30,7 +30,7 @@
 
                         <div class="carousel-inner" role="listbox" ng-controller="carousel-controller">
                             <div class="item" ng-repeat="publicacao in publicacoes">
-                                <img src="{{publicacao.thumbnail_publ}}" alt="{{publicacao.titulo_publ}}" class="img-thumbnail">
+                                <img src="../img/thumbs/{{publicacao.thumbnail_publ}}" alt="{{publicacao.titulo_publ}}" class="img-thumbnail">
                                 <div class="carousel-caption">
                                     <h3>{{publicacao.titulo_publ}}</h3>
                                     <time>{{publicacao.ano_publ}} - {{publicacao.mes_publ}}</time>
@@ -167,21 +167,21 @@
 <?php include_once("footer.php");?>
 
 <script>
-    angular.module("radar-artigos", [].controller("carousel-controller", function($scope){
+    angular.module("radar-artigos", []).controller("carousel-controller", function($scope){
         $scope.publicacoes = [];
         
         $scope.publicacoes.push({
-            thumbnail_publ: "../img/thumbs/nova_thumb_48.jpg",
+            thumbnail_publ: "nova_thumb_48.jpg",
             titulo_publ: "Radar nº 48",
             ano_publ: "2016",
             mes_publ: "Dezembro"
         });
         
         $scope.publicacoes.push({
-            thumbnail_publ: "../img/thumbs/nova_thumb_47.jpg",
+            thumbnail_publ: "nova_thumb_47.jpg",
             titulo_publ: "Radar nº 47",
             ano_publ: "2016",
             mes_publ: "Outubro"
         });
-    }));
+    });
 </script>
