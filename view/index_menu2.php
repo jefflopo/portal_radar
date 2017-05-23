@@ -3,12 +3,6 @@
         
         <section>
             
-            <div id="banner">
-                <a href="http://www.ipea.gov.br/" target="_blank">
-                    <img src="img/logo_ipea.png" alt="Logo do IPEA">
-                </a>
-            </div>
-            
             <div id="publicacoes" class="container">
                 
                 <div class="row text-center">
@@ -18,7 +12,7 @@
                 
                 <br><br>
                 
-                <div id="carousel_" class="carousel slide" data-ride="carousel">
+                <div id="carousel_" class="carousel slide" data-ride="carousel"  ng-controller="carousel-controller">
 
                         <!-- Indicators -->
                         <ol class="carousel-indicators">
@@ -28,7 +22,7 @@
                           <li data-target="#carousel_" data-slide-to="3"></li>
                         </ol>
 
-                        <div class="carousel-inner" role="listbox" ng-controller="carousel-controller">
+                        <div class="carousel-inner" role="listbox">
                             <div class="item" ng-repeat="publicacao in publicacoes">
                                 <img src="../img/thumbs/{{publicacao.thumbnail_publ}}" alt="{{publicacao.titulo_publ}}" class="img-thumbnail">
                                 <div class="carousel-caption">
