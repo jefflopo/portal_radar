@@ -16,3 +16,5 @@ INSERT INTO tb_artigos VALUES(NULL, 1, 'Tributação sobre Empresas no Brasil: c
 INSERT INTO tb_artigos VALUES(NULL, 3, 'EFEITOS DA POLÍTICA DE REVERSIBILIDADE SOBRE O DESEMPENHO DO SETOR DE TELECOMUNICAÇÕES NO BRASIL', 
 'Serviços', 'Luciano Charlita de Freitas; Luiz Fernando Fauth; Igor Vilas Boas de Freitas', '../Documents/xampp/htdocs/Projeto_IPEA/public_html/img/artigos/160309_radar43_cap_5.pdf');
 
+SELECT * FROM tb_publicacoes
+order by num_edicao desc limit 4;
