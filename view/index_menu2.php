@@ -177,5 +177,19 @@
             ano_publ: "2016",
             mes_publ: "Outubro"
         });
+        
+        $scope.publicacoes.push({
+            thumbnail_publ: "nova_thumb_46.jpg",
+            titulo_publ: "Radar nº 46",
+            ano_publ: "2016",
+            mes_publ: "Agosto"
+        });
+        
+        $scope.publicacoes.push({
+            thumbnail_publ: "nova_thumb_45.jpg",
+            titulo_publ: "Radar nº 45",
+            ano_publ: "2016",
+            mes_publ: "Junho"
+        });
     });
 </script>
