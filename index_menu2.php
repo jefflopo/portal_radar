@@ -26,7 +26,7 @@ $app = new Slim\App();
  * argument for `Slim::get`, `Slim::post`, `Slim::put`, `Slim::patch`, and `Slim::delete`
  * is an anonymous function.
  */
-$app->get('/index', function ($request, $response, $args) {
+$app->get('/', function ($request, $response, $args) {
     require_once ("view/index_menu2.php");
 });
 
