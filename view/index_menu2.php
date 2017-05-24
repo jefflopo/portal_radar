@@ -3,7 +3,7 @@
         
         <section>
             
-            <div id="publicacoes" class="container" ng-controller="carousel_ctrl">
+            <div id="publicacoes" class="container">
                 
                 <div class="row text-center">
                     <h2>Publicações</h2>
@@ -22,7 +22,7 @@
                           <li data-target="#carousel_" data-slide-to="3"></li>
                         </ol>
 
-                        <div class="carousel-inner" role="listbox">
+                        <div class="carousel-inner" role="listbox" ng-controller="carouselCtrl">
                             <div class="item" ng-repeat="publicacao in publicacoes">
                                 <img src="../img/thumbs/{{publicacao.thumbnail_publ}}" alt="{{publicacao.titulo_publ}}" class="img-thumbnail">
                                 <div class="carousel-caption">
@@ -161,7 +161,7 @@
 <?php include_once("footer.php");?>
 
 <script>
-    angular.module("radar", []).controller("carousel_ctrl", function($scope){
+    angular.module("radar", []).controller("carouselCtrl", function($scope){
         $scope.publicacoes = [];
         
         $scope.publicacoes.push({
