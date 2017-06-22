@@ -16,7 +16,7 @@
 
                         <!-- Indicators -->
                         <ol class="carousel-indicators">
-                          <li data-target="#carousel_" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel_" data-slide-to="0" class="active"></li>
                           <li data-target="#carousel_" data-slide-to="1"></li>
                           <li data-target="#carousel_" data-slide-to="2"></li>
                           <li data-target="#carousel_" data-slide-to="3"></li>
@@ -24,7 +24,7 @@
 
                         <div class="carousel-inner" role="listbox" ng-controller="carouselCtrl">
                             <div class="item" ng-repeat="publicacao in publicacoes">
-                                <img src="../img/thumbs/{{publicacao.thumbnail_publ}}" alt="{{publicacao.titulo_publ}}" class="img-thumbnail">
+                                <img ng-src="../img/thumbs/{{publicacao.thumbnail_publ}}" alt="{{publicacao.titulo_publ}}" class="img-thumbnail">
                                 <div class="carousel-caption">
                                     <h3>{{publicacao.titulo_publ}}</h3>
                                     <time>{{publicacao.ano_publ}} - {{publicacao.mes_publ}}</time>
