@@ -87,8 +87,8 @@
         </footer>
         
         <script src="../lib/jquery/jquery.min.js"></script>
-        <script src="../lib/owl.carousel/owl.carousel.min.js"></script>
         <script src="../lib/bootstrap/js/bootstrap.min.js"></script>
+        <script src="../lib/owl.carousel/owl.carousel.min.js"></script>
         <script src="../lib/js/efeitos.js"></script>
         
     </body>
