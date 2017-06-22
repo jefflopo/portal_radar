@@ -23,6 +23,7 @@
                         </ol>
 
                         <div class="carousel-inner" role="listbox" ng-controller="carouselCtrl">
+                            
                             <div class="item" ng-class="{active:!$index}" ng-repeat="publicacao in publicacoes">
                                 <img ng-src="../img/thumbs/{{publicacao.thumbnail_publ}}" alt="{{publicacao.titulo_publ}}" class="img-thumbnail">
                                 <div class="carousel-caption">
