@@ -162,7 +162,7 @@
 <?php include_once("footer.php");?>
 
 <script>
-    angular.module("radar", []).controller("carouselCtrl", function($scope){
+    angular.module("radar", []).controller("carouselCtrl", function($scope, $http){
         $scope.publicacoes = [];
         
         $scope.publicacoes.push({
