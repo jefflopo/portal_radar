@@ -54,7 +54,7 @@ $app->get('/publicacoes', function(){
                           WHERE ano_publ <= 2017
                           ORDER BY num_edicao desc limit 3;");
     
-    echo json_encode($data);
+    echo json_encode($result);
 });
 
 $app->get('/hello[/{name}]', function ($request, $response, $args) {
