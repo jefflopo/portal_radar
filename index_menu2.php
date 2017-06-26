@@ -46,11 +46,20 @@ $app->get('/temas', function ($request, $response, $args) {
     require_once ("view/temasRadar.php");
 });
 
-$app->get('/test', function(){
+$app->get('/publicacoes', function(){
     
     $sql = new Sql();
     
-    $data = $sql->select("SELECT * FROM tb_publicacoes order by num_edicao desc limit 4;");
+    $result = $sql->select("SELECT * FROM db_ipea.tb_publicacoes
+                          WHERE ano_publ <= 2017
+                          ORDER BY num_edicao desc limit 3;");
+    $data = array();
+    
+    while( $row = mysqli_fetch_array($result) ){
+        
+        array_push($data, $row);
+        
+    }
     
     var_dump($data);
     exit;
