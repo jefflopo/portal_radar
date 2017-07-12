@@ -16,7 +16,7 @@
 
                         <!-- Indicators -->
                         <ol class="carousel-indicators">
-                            <li data-target="#carousel_" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel_" data-slide-to="0" ng-class="{active:!$index}"></li>
                             <li data-target="#carousel_" data-slide-to="1"></li>
                             <li data-target="#carousel_" data-slide-to="2"></li>
                             <li data-target="#carousel_" data-slide-to="3"></li>
@@ -165,6 +165,17 @@
     angular.module("radar", []).controller("carouselCtrl", function($scope, $http){
         $scope.publicacoes = [];
         
+//        $http({
+//            method: 'GET',
+//            url: 'publicacoes'
+//        }).then(function successCallback(response) {
+//              
+//              $scope.publicacoes = response;
+//              
+//            }, function errorCallback(response) {
+//              // called asynchronously if an error occurs
+//              // or server returns response with an error status.
+//        });
         $scope.publicacoes.push({
             thumbnail_publ: "nova_thumb_48.jpg",
             titulo_publ: "Radar nº 48",
