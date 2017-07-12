@@ -50,9 +50,11 @@ $app->get('/publicacoes', function(){
     
     $sql = new Sql();
     
-    $result = $sql->select("SELECT * FROM db_ipea.tb_publicacoes
+    $result = $sql->select("SELECT * FROM tb_publicacoes
                           WHERE ano_publ <= 2017
                           ORDER BY num_edicao desc limit 3;");
+    var_dump($result);
+    exit;
     
     echo json_encode($result);
 });
