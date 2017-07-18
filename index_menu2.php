@@ -7,6 +7,7 @@
  * PSR-4 autoloader.
  */
 require 'inc/Slim-3.x/Slim-3.x/vendor/autoload.php';
+require 'inc/configuration.php';
 
 /**
  * Step 2: Instantiate a Slim application
