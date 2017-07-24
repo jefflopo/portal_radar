@@ -25,7 +25,7 @@
                         <div class="carousel-inner" role="listbox" ng-controller="carouselCtrl">
                             
                             <div class="item" ng-class="{active:!$index}" ng-repeat="publicacao in publicacoes">
-                                <img ng-src="../img/thumbs/{{publicacao.thumbnail_publ}}" alt="{{publicacao.titulo_publ}}" class="img-thumbnail">
+                                <img ng-src="{{publicacao.thumbnail_publ}}" alt="{{publicacao.titulo_publ}}" class="img-thumbnail">
                                 <div class="carousel-caption">
                                     <h3>{{publicacao.titulo_publ}}</h3>
                                     <time>{{publicacao.ano_publ}} - {{publicacao.mes_publ}}</time>
@@ -162,21 +162,21 @@
 <?php include_once("footer.php");?>
 
 <script>
-    angular.module("radar", []).controller("carouselCtrl", function($scope, $http){
+    angular.module("radar", []).controller("carouselCtrl", ['$scope', '$http', function($scope, $http){
         $scope.publicacoes = [];
         
-//        $http({
-//            method: 'GET',
-//            url: 'publicacoes'
-//        }).then(function successCallback(response) {
-//              
-//              $scope.publicacoes = response;
-//              
-//            }, function errorCallback(response) {
-//              // called asynchronously if an error occurs
-//              // or server returns response with an error status.
-//        });
-        $scope.publicacoes.push({
+        $http({
+            method: 'GET',
+            url: 'publicacoes'
+        }).then(function successCallback(response) {
+              
+              $scope.publicacoes = response.data;
+              
+            }, function errorCallback(response) {
+              // called asynchronously if an error occurs
+              // or server returns response with an error status.
+        });
+    /*    $scope.publicacoes.push({
             thumbnail_publ: "nova_thumb_48.jpg",
             titulo_publ: "Radar nº 48",
             ano_publ: "2016",
@@ -203,5 +203,6 @@
             ano_publ: "2016",
             mes_publ: "Junho"
         });
-    });
+     */   
+    }]);
 </script>
