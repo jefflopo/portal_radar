@@ -31,6 +31,13 @@
                                     <time>{{publicacao.ano_publ}} - {{publicacao.mes_publ}}</time>
                                 </div>
                             </div>
+                            <div class="item">
+                                <img src="../img/thumbs/todas_publicacoes.jpg" alt="Ver todas Publicações Radar" class="img-thumbnail">
+                                <div class="carousel-caption">
+                                    <h3>Todas Publicações</h3>
+                                    <time>2017</time>
+                                </div>
+                            </div>
 
 <!--                            <div class="item">
                                 <img src="../img/thumbs/nova_thumb_47.jpg" alt="Artigo nº 47" class="img-thumbnail">
