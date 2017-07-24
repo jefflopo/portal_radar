@@ -54,8 +54,8 @@ $app->get('/publicacoes', function(){
     $result = $sql->select("SELECT * FROM tb_publicacoes
                           WHERE ano_publ <= 2017
                           ORDER BY num_edicao desc limit 3;");
-    var_dump($result);
-    exit;
+    //var_dump($result);
+    //exit;
     
     echo json_encode($result);
 });
