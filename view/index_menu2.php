@@ -32,7 +32,9 @@
                                 </div>
                             </div>
                             <div class="item">
-                                <img src="../img/thumbs/todas_publicacoes.jpg" alt="Ver todas Publicações Radar" class="img-thumbnail">
+                                <a href="../view/radarPDF.php">
+                                    <img src="../img/thumbs/todas_publicacoes.jpg" alt="Ver todas Publicações Radar" class="img-thumbnail" style="margin: 0 auto;">
+                                </a>
                                 <div class="carousel-caption">
                                     <h3>Todas Publicações</h3>
                                     <time>2017</time>
