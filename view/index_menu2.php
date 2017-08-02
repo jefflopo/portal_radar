@@ -22,7 +22,7 @@
                             <li data-target="#carousel_" data-slide-to="3"></li>
                         </ol>
 
-                        <div class="carousel-inner" role="listbox" ng-controller="carouselCtrl">
+                        <div class="carousel-inner" role="listbox">
                             
                             <div class="item" ng-class="{active:!$index}" ng-repeat="publicacao in publicacoes">
                                 <img ng-src="{{publicacao.thumbnail_publ}}" alt="{{publicacao.titulo_publ}}" class="img-thumbnail">
