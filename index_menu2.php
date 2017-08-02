@@ -60,6 +60,20 @@ $app->get('/publicacoes', function(){
     echo json_encode($result);
 });
 
+$app->get('/ultimas-publicacoes', function (){
+    
+    $sql = new Sql();
+    
+    $result = $sql->select("SELECT * FROM tb_publicacoes
+                          WHERE ano_publ <= 2017
+                          ORDER BY num_edicao desc limit 3;");
+    //var_dump($result);
+    //exit;
+    
+    echo json_encode($result);
+    
+});
+
 $app->get('/hello[/{name}]', function ($request, $response, $args) {
     $response->write("Hello, " . $args['name']);
     return $response;
