@@ -6,10 +6,19 @@
             <div id="edicoes" class="container">
                 
                 <div class="row text-center">
-                    <h2>Temas</h2>
+                    <h2>Edição nº ----- </h2>
                     <hr>
                 </div>
                 
+                <div class="item">
+                    <img src="thumbnail_publ" alt="titulo_publ" class="img-thumbnail">
+                    <div class="item">
+                        <h3>titulo_publ</h3>
+                        <time>ano_publ - mes_publ</time>
+                    </div>
+                </div>
+                
+                <br/><br/>
                 <div class="row">
                     
                     <div id="opcoesOrdenar" class="col-lg-3 col-md-3 col-sm-3 col-xs-3" >
