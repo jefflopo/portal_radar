@@ -10,7 +10,8 @@
                             
                             <div class="col-md-4 col-mais-acessados">
                                 
-                                <h4>Mais Acessados</h4>
+                                <h4>ÚLTIMAS PUBLICAÇÕES</h4>
+                                <!--
                                 <ul class="list-unstyled">
                                     <li>
                                         <h5>Neque porro quisquam est, quister.</h5>
@@ -21,6 +22,24 @@
                                         <time>January 01, 2016</time>
                                     </li>
                                 </ul>
+                                -->
+                                <ul class="list-unstyled" ng-repeat="publicacao in publicacoes">
+                                    <li>
+                                        <center><h5>{{publicacao.titulo_publ}} - Edição de</h5></center>
+                                        <center><time>{{publicacao.mes_publ}} - {{publicacao.ano_publ}}</time></center> 
+                                    </li>
+                                </ul>
+                                
+                                <!--
+                                <div class="container" ng-controller="ultPublCtrl">
+                                    <div class="list-unstyled" ng-repeat="publicacao in publicacoes">
+                                        <div class="text-justify">
+                                            <h3>{{publicacao.titulo_publ}}</h3>
+                                            <time>{{publicacao.num_edicao}} - {{publicacao.ano_publ}}</time>
+                                        </div>
+                                    </div>
+                                </div>
+                                -->
                                 
                             </div>
                             
@@ -88,8 +107,29 @@
         
         <script src="../lib/jquery/jquery.min.js"></script>
         <script src="../lib/bootstrap/js/bootstrap.min.js"></script>
+        <script src="../lib/bootstrap/jquery-bootpag/lib/jquery.bootpag.js"></script>
         <script src="../lib/owl.carousel/owl.carousel.min.js"></script>
         <script src="../lib/js/efeitos.js"></script>
+        
+        <script>
+            angular.module("radar", [])
+                    .controller("carouselCtrl", ['$scope', '$http',  function($scope, $http){
+                
+                $scope.publicacoes = [];
+
+                $http({
+                    method: 'GET',
+                    url: 'ultimas-publicacoes'
+                }).then(function successCallback(response) {
+
+                      $scope.publicacoes = response.data;
+
+                    }, function errorCallback(response) {
+                      // called asynchronously if an error occurs
+                      // or server returns response with an error status.
+                });
+            }]);
+        </script>
         
     </body>
 </html>
