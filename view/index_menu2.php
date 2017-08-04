@@ -170,48 +170,4 @@
         
 <?php include_once("footer.php");?>
 
-<script>
-    angular.module("radar", []).controller("carouselCtrl", ['$scope', '$http', function($scope, $http){
-        $scope.publicacoes = [];
-        
-        $http({
-            method: 'GET',
-            url: 'publicacoes'
-        }).then(function successCallback(response) {
-              
-              $scope.publicacoes = response.data;
-              
-            }, function errorCallback(response) {
-              // called asynchronously if an error occurs
-              // or server returns response with an error status.
-        });
-    /*    $scope.publicacoes.push({
-            thumbnail_publ: "nova_thumb_48.jpg",
-            titulo_publ: "Radar nº 48",
-            ano_publ: "2016",
-            mes_publ: "Dezembro"
-        });
-        
-        $scope.publicacoes.push({
-            thumbnail_publ: "nova_thumb_47.jpg",
-            titulo_publ: "Radar nº 47",
-            ano_publ: "2016",
-            mes_publ: "Outubro"
-        });
-        
-        $scope.publicacoes.push({
-            thumbnail_publ: "nova_thumb_46.jpg",
-            titulo_publ: "Radar nº 46",
-            ano_publ: "2016",
-            mes_publ: "Agosto"
-        });
-        
-        $scope.publicacoes.push({
-            thumbnail_publ: "nova_thumb_45.jpg",
-            titulo_publ: "Radar nº 45",
-            ano_publ: "2016",
-            mes_publ: "Junho"
-        });
-     */   
-    }]);
-</script>
+
