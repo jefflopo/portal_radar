@@ -8,6 +8,7 @@
                 <div class="row text-center">
                     <h2>Edição nº ----- </h2>
                     <hr>
+                    <br/><br/>
                 </div>
                 
                 <div class="item">
