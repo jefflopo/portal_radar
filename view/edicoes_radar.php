@@ -14,7 +14,7 @@
                     <center>
                         <img src="../img/thumbs/todas_publicacoes.jpg" alt="titulo_publ" class="img-thumbnail">
                     </center>
-                    <div class="item">
+                    <div class="item" style="text-align: center;">
                         <h3>titulo_publ</h3>
                         <time>ano_publ - mes_publ</time>
                     </div>
