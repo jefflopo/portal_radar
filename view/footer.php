@@ -133,10 +133,10 @@
             }]);
         </script>
         
-<!--        <script>
+        <!-- <script>
             angular.module("radar", [])
-                    .controller("carouselCtrl", ['$scope', '$http', function($scope, $http){
-                $scope.publicacoes = [];
+                    .controller("publicacoesCtrl", ['$scope', '$http', function($scope, $http){
+                $scope.ultPublicacoes = [];
 
                 $http({
                     method: 'GET',
@@ -178,7 +178,7 @@
                 });
              */   
             }]);
-        </script>-->
+        </script> -->
         
     </body>
 </html>
