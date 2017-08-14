@@ -3,10 +3,10 @@
         
         <section>
             
-            <div id="edicoes" class="container">
+            <div id="edicoes" class="container" ng-reapeat="publicacao in publicacoes">
                 
                 <div class="row text-center">
-                    <h2>Edição nº ----- </h2>
+                    <h2>Edição nº {{publicacao.num_edicao}} </h2>
                     <hr>
                     <br/><br/>
                 </div>
@@ -16,8 +16,8 @@
                         <img src="../img/thumbs/todas_publicacoes.jpg" alt="titulo_publ" class="img-thumbnail">
                     </center>
                     <div class="item" style="text-align: center;">
-                        <h3>titulo_publ</h3>
-                        <time>ano_publ - mes_publ</time>
+                        <h3>{{publicacao.titulo_publ}}</h3>
+                        <time>{{publicacao.ano_publ}} - {{publicacao.mes_publ}}</time>
                     </div>
                 </div>
                 
@@ -162,3 +162,23 @@ Autores: Bernardo Alves Furtado, Alexandre Messa, Isaque Daniel Rocha Eberhardt 
         </section>
         
 <?php include_once ("footer.php");?>
+
+<script>
+    angular.module("radar", [])
+            .controller("carouselCtrl", ['$scope', '$http',  function($scope, $http){
+
+        $scope.publicacoes = [];
+
+        $http({
+            method: 'GET',
+            url: 'ultimas-publicacoes'
+        }).then(function successCallback(response) {
+
+              $scope.publicacoes = response.data;
+
+            }, function errorCallback(response) {
+              // called asynchronously if an error occurs
+              // or server returns response with an error status.
+        });
+    }]);
+</script>
