@@ -2,7 +2,7 @@
 
         
         <section>
-            
+              
             <div id="edicoes" class="container" ng-reapeat="publicacao in publicacoes">
                 
                 <div class="row text-center">
@@ -154,17 +154,17 @@ Autores: Bernardo Alves Furtado, Alexandre Messa, Isaque Daniel Rocha Eberhardt 
                                 </select>
 
                             </div> -->
-                    
+                          
                 </div>
                 
-            </div>
-            
+            </div> 
+        <!--    <div id="pagination-container"></div> -->
         </section>
         
 <?php include_once ("footer.php");?>
 
 <script>
-    angular.module("radar", [])
+   /* angular.module("radar", [])
             .controller("carouselCtrl", ['$scope', '$http',  function($scope, $http){
 
         $scope.publicacoes = [];
@@ -181,4 +181,14 @@ Autores: Bernardo Alves Furtado, Alexandre Messa, Isaque Daniel Rocha Eberhardt 
               // or server returns response with an error status.
         });
     }]);
+    */
+
+    /* $('#pagination-container').pagination({
+        dataSource: [1, 2, 3, 4, 5, 6, 7, ... , 195],
+        callback: function(data, pagination) {
+            // template method of yourself
+            var html = template(data);
+            $('#data-container').html(html);
+        }
+    }); */
 </script>
