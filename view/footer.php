@@ -112,6 +112,7 @@
         <script src="../lib/bootstrap/jquery-bootpag/lib/jquery.bootpag.js"></script>
         <script src="../lib/owl.carousel/owl.carousel.min.js"></script>
         <script src="../lib/js/efeitos.js"></script>
+        <script src="../lib/pagination/pagination.js"></script>
         
         <script>
             angular.module("radar", [])
